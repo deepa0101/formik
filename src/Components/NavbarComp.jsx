@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 function NavbarComp() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-5">
-  <NavLink className="navbar-brand" to="/dashBoard">Dashboard</NavLink>
+  <NavLink className="navbar-brand" to="">Dashboard</NavLink>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
