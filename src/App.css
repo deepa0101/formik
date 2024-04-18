@@ -1,0 +1,15 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: solid black 10px;
+    
+ }
+.card-container{
+    height: 55rem;
+    padding: 10px;
+    overflow: hidden;
+
+}
+
+  
