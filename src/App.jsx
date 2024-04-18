@@ -12,7 +12,7 @@ function App() {
         <BrowserRouter>
         <NavbarComp/>
         <Routes>
-        <Route exact path="/dashBoard" element={<Books/>}></Route>
+        <Route exact path="" element={<Books/>}></Route>
         <Route  exact path="/addBooks" element={<AddBooks/>}></Route>
         <Route path="/dashboard/:id/edit" element={<EditItem />} />
         </Routes>
